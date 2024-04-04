@@ -1,41 +1,43 @@
 import React, { useEffect, useState } from 'react'
+import UseFetchData from './fetchdata'
 
-// Define the interface for the data returned by the API
-interface ApiResponse {
-    // Define the properties based on your API response structure
-  }
 
-const UseApi = (url:string) => {
+const CustomApp = () => {
+    const {listdata,loading,error} = UseFetchData('https://jsonplaceholder.typicode.com/users');
+    const [deletedItem,setDeleteditem] = useState<number>([]);
 
-    // state to hold the fetched data 
-    const [data,setData] = useState<ApiResponse | null>(null);
+    const btnDel  = (id:number) => {
+        setDeleteditem(prevItem => [...prevItem,id]);
+    }
 
-    // state to track looading state 
-    const [loading,setLoading] = useState<boolean>(true);
-
-    //state to track error state
-    const [error,setError] = useState<Error | null>(null)
-
-    useEffect(() => {
-        const fetchData = async () => {
-            setLoading(true)
-            try {
-                const response = await fetch(url);
-                if(!response.ok){
-                    throw new Error('Failed to fetch data');
-                }
-                const result:ApiResponse = await response.json();
-                setData(result);
-            } catch (error) {
-                setError(error)
-            }
-            finally{
-                setLoading(false);
-            }
+    if(loading){
+        return(
+            <div>Loading...</div>
+        )
+    }
+    if(error){
+        return(
+            <div>{error.message}</div>
+        )
+    }
+  return (
+    <>
+     <h2 className='font-bold text-[24px] underline'>User data 1:</h2>
+     <ul>
+     {listdata && listdata.map((val) => {
+        if(deletedItem.includes(val.id)){
+            return null
         }
-        fetchData()
-    },[url]); // Dependency array to ensure the effect runs when URL changes
-  return  {data,loading,error}
+        return (
+            <li key={val.id}>
+                Name: {val.name}, Email {val.email}
+                <button onClick={() => btnDel(val.id)} className='bg-blue-600 text-white rounded p-[5px]'>Delete</button>
+            </li>
+        )
+     })}
+     </ul>
+    </>
+  )
 }
 
-export default UseApi
+export default CustomApp

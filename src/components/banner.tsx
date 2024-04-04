@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Banner = ({title,desc}) => {
+const Banner = ({style,title,desc}) => {
   const bannerStyle = {
     backgroundColor: 'powderblue',
     padding: '50px 20px',
@@ -9,7 +9,7 @@ const Banner = ({title,desc}) => {
   };
   return (
     <div style={bannerStyle}>
-        <h3 className={title}>{title}</h3>
+        <h3 className={`${style}`}>{title}</h3>
         <p className={desc}>{desc}</p>
     </div>
   )

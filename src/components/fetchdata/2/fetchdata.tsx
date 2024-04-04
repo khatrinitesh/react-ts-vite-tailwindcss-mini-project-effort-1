@@ -7,7 +7,6 @@ interface UserData{
 }
 
 const UseFetchData = (url:string) => {
-
     const [listdata,setListdata] = useState<UserData[]>([]);
     const [loading,setLoading] = useState<boolean>(true);
     const [error,setError] = useState<Error | null>(null);

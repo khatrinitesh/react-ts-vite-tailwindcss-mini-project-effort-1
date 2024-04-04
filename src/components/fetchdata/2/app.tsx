@@ -18,7 +18,7 @@ const CustomApp = () => {
 
   return (
     <div>
-      <h1>User Data:</h1>
+      <h1 className="font-bold text-[30px]">User Data:1</h1>
       <ul>
         {listdata.map(user => {
           if (deletedItems.includes(user.id)) {
@@ -27,7 +27,7 @@ const CustomApp = () => {
           return (
             <li key={user.id}>
               Name: {user.name}, Email: {user.email}
-              <button onClick={() => handleDelete(user.id)}>Delete</button>
+              <button onClick={() => handleDelete(user.id)} className="bg-blue-700 text-white rounded p-[5px]">Delete</button>
             </li>
           );
         })}

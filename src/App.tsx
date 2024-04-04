@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
+import NotFound from './repository/404error/1/app';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/service" element={<Service/>}/>
           <Route path="/contact" element={<Contact/>}/>
         </Route>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
      </Router>
     </>
