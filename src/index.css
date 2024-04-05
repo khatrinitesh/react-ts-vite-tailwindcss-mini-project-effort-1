@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+ul,ol{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header,footer{
+    height: 10vh;
+    padding: 15px;
+}
+
+#root{
+    max-height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-flow: column;
+    overflow-y: hidden;
+    justify-content: space-between;
+}
+
 header ul li a.active{
     background-color: red;
+}
+
+.mainContent{
+    height: 80vh;
+    overflow-y: auto;
 }

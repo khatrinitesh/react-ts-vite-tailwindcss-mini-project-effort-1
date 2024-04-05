@@ -8,7 +8,7 @@ const MainLayout = () => {
   return (
     <>
      <Header/>
-     <div className="mainContent flex-grow bg-gray-100 py-8">
+     <div className="mainContent  bg-gray-100 ">
         <Outlet/>
      </div>
      <Footer/>
