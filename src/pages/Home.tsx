@@ -35,7 +35,18 @@ import Banner from '../components/banner';
 // import CustomApp from '../repository/cards/1/app';
 // import CustomApp from '../repository/cascadingdropdown/1/app';
 // import CustomApp from '../repository/centerbuttondiv/1/app';
-import CustomApp from '../repository/centerimages/1/app';
+// import CustomApp from '../repository/centerimages/1/app';
+// import CustomApp from '../repository/centertables/1/app';
+// import CustomApp from '../repository/centervertically/1/app';
+// import CustomApp from '../repository/centerwebsites/1/app';
+// import CustomApp from '../repository/centeredmenulink/1/app';
+// import CustomApp from '../repository/changebackgroundcolorwithdropdownmenu/1/app';
+// import CustomApp from '../repository/changebackgroundonscroll/1/app';
+// import CustomApp from '../repository/changingactivemenuitemonpagescroll/1/app';
+// import CustomApp from '../repository/charactercounter/1/app';
+// import CustomApp from '../repository/chatmessage/1/app';
+// import CustomApp from '../repository/checkcheckbox/1/app';
+import CustomApp from '../repository/checkifvalueisNumeric/1/app';
 
 function Home() {
 
