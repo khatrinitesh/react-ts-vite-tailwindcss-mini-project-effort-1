@@ -60,7 +60,12 @@ import Banner from '../components/banner';
 // import CustomApp from '../repository/close/1/app';
 // import CustomApp from '../repository/collapsedsidebar/1/app';
 // import CustomApp from '../repository/collapsedsidepanel/1/app';
-import CustomApp from '../repository/collapsible/1/app';
+// import CustomApp from '../repository/collapsible/1/app';
+// import CustomApp from '../repository/colorpicker/1/app';
+// import CustomApp from '../repository/columncards/1/app';
+// import CustomApp from '../repository/comparisontable/1/app';
+// import CustomApp from '../repository/contactchips/1/app';
+import CustomApp from '../repository/contactform/1/app';
 
 function Home() {
 
