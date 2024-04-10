@@ -46,7 +46,21 @@ import Banner from '../components/banner';
 // import CustomApp from '../repository/charactercounter/1/app';
 // import CustomApp from '../repository/chatmessage/1/app';
 // import CustomApp from '../repository/checkcheckbox/1/app';
-import CustomApp from '../repository/checkifvalueisNumeric/1/app';
+// import CustomApp from '../repository/checkifvalueisNumeric/1/app';
+// import CustomApp from '../repository/checkoutform/1/app';
+// import CustomApp from '../repository/circlemenuformobile/1/app';
+// import CustomApp from '../repository/circlesdots/1/app';
+// import CustomApp from '../repository/classList/1/app';
+// import CustomApp from '../repository/claymorphism/1/app';
+// import CustomApp from '../repository/clearinputfield/1/app';
+// import CustomApp from '../repository/clearfix/1/app';
+// import CustomApp from '../repository/clickdropdowns/1/app';
+// import CustomApp from '../repository/clockwithdigitalandanalog/1/app';
+// import CustomApp from '../repository/closablelistitems/1/app';
+// import CustomApp from '../repository/close/1/app';
+// import CustomApp from '../repository/collapsedsidebar/1/app';
+// import CustomApp from '../repository/collapsedsidepanel/1/app';
+import CustomApp from '../repository/collapsible/1/app';
 
 function Home() {
 
