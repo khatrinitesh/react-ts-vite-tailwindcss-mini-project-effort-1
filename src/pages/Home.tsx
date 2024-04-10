@@ -66,7 +66,24 @@ import Banner from '../components/banner';
 // import CustomApp from '../repository/comparisontable/1/app';
 // import CustomApp from '../repository/contactchips/1/app';
 // import CustomApp from '../repository/contactform/1/app';
-import CustomApp from '../repository/contactsection/1/app';
+// import CustomApp from '../repository/contactsection/1/app';
+// import CustomApp from '../repository/contenteditableborder/1/app';
+// import CustomApp from '../repository/copytexttoclipboard/1/app';
+// import CustomApp from '../repository/countdowntimer/1/app';
+// import CustomApp from '../repository/coupon/1/app';
+// import CustomApp from '../repository/createzoominandoutanimage/1/app';
+// import CustomApp from '../repository/crud/1/app';
+// import CustomApp from '../repository/cursor/1/app';
+// import CustomApp from '../repository/curtainmenu/1/app';
+// import CustomApp from '../repository/customcheckbox/1/app';
+// import CustomApp from '../repository/charactercounter/2/app';
+// import CustomApp from '../repository/customfile/1/app';
+// import CustomApp from '../repository/customradio/1/app';
+// import CustomApp from '../repository/customscrollbar/1/app';
+// import CustomApp from '../repository/cutouttext/1/app';
+// import CustomApp from '../repository/cutouttext/1/app';
+// import CustomApp from '../repository/dashboard-admin-backend/1/app';
+import CustomApp from '../repository/datatable/1/app';
 
 function Home() {
 
