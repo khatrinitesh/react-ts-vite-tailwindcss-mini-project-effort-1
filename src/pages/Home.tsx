@@ -65,7 +65,8 @@ import Banner from '../components/banner';
 // import CustomApp from '../repository/columncards/1/app';
 // import CustomApp from '../repository/comparisontable/1/app';
 // import CustomApp from '../repository/contactchips/1/app';
-import CustomApp from '../repository/contactform/1/app';
+// import CustomApp from '../repository/contactform/1/app';
+import CustomApp from '../repository/contactsection/1/app';
 
 function Home() {
 
