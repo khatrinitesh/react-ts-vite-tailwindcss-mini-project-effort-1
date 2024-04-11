@@ -83,7 +83,31 @@ import Banner from '../components/banner';
 // import CustomApp from '../repository/cutouttext/1/app';
 // import CustomApp from '../repository/cutouttext/1/app';
 // import CustomApp from '../repository/dashboard-admin-backend/1/app';
-import CustomApp from '../repository/datatable/1/app';
+// import CustomApp from '../repository/datatable/1/app';
+// import CustomApp from '../repository/datepicker/1/app';
+// import CustomApp from '../repository/deletemodal/1/app';
+// import CustomApp from '../repository/detectcapslock/1/app';
+// import CustomApp from '../repository/detectuserbrowser/1/app';
+// import CustomApp from '../repository/devicelook/1/app';
+// import CustomApp from '../repository/disablerightclick/1/app';
+// import CustomApp from '../repository/displayelementhover/1/app';
+// import CustomApp from '../repository/divider/1/app';
+// import CustomApp from '../repository/downloadbuttons/1/app';
+// import CustomApp from '../repository/downloadlink/1/app';
+// import CustomApp from '../repository/draggablehtmlelement/1/app';
+// import CustomApp from '../repository/dropdownintopnav/1/app';
+// import CustomApp from '../repository/dropmorphism/1/app';
+// import CustomApp from '../repository/dropup/1/app';
+// import CustomApp from '../repository/emailer/1/app';
+// import CustomApp from '../repository/emptyinputvalidation/1/app';
+// import CustomApp from '../repository/equalheight/1/app';
+// import CustomApp from '../repository/equalwidthnavlinks/1/app';
+// import CustomApp from '../repository/examplewebsite/1/app';
+// import CustomApp from '../repository/expandinggrid/1/app';
+// import CustomApp from '../repository/fadingbtn/1/app';
+// import CustomApp from '../repository/fatnav/1/app';
+// import CustomApp from '../repository/favicon/1/app';
+import CustomApp from '../repository/foldedcorner/1/app';
 
 function Home() {
 
