@@ -107,7 +107,8 @@ import Banner from '../components/banner';
 // import CustomApp from '../repository/fadingbtn/1/app';
 // import CustomApp from '../repository/fatnav/1/app';
 // import CustomApp from '../repository/favicon/1/app';
-import CustomApp from '../repository/foldedcorner/1/app';
+// import CustomApp from '../repository/foldedcorner/1/app';
+import CustomApp from '../repository/formwithicons/1/app';
 
 function Home() {
 
