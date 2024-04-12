@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 // import CustomApp from '../components/fetchdata/2/app';
-import Banner from '../components/banner';
+import Banner from "../components/banner";
 // import CustomApp from '../repository/accordion/1/app';
 // import CustomApp from '../repository/activeclass/1/app';
 // import CustomApp from '../repository/alertbuttons/1/app';
@@ -108,16 +108,19 @@ import Banner from '../components/banner';
 // import CustomApp from '../repository/fatnav/1/app';
 // import CustomApp from '../repository/favicon/1/app';
 // import CustomApp from '../repository/foldedcorner/1/app';
-import CustomApp from '../repository/formwithicons/1/app';
+import CustomApp from "../repository/iframeembedautoplay/1/app";
 
 function Home() {
-
   return (
-    <div className='content '>
-      <Banner style="font-bold text-[red] text-[30px]" title="Home" desc="Aute aliqua et quis non consequat velit anim sunt. Minim nostrud aliqua adipisicing et eu aliqua cupidatat labore mollit. Laborum ea excepteur velit occaecat occaecat laboris nisi. Elit aute irure qui sit non aliquip ad proident eiusmod amet excepteur. " />
+    <div className="content ">
+      <Banner
+        style="font-bold text-[red] text-[30px]"
+        title="Home"
+        desc="Aute aliqua et quis non consequat velit anim sunt. Minim nostrud aliqua adipisicing et eu aliqua cupidatat labore mollit. Laborum ea excepteur velit occaecat occaecat laboris nisi. Elit aute irure qui sit non aliquip ad proident eiusmod amet excepteur. "
+      />
       <CustomApp />
     </div>
   );
 }
 
-export default Home
+export default Home;
