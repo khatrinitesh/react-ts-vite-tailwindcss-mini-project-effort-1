@@ -1,50 +1,71 @@
-import React, { useState } from "react";
-// import './style.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
-import { faHome, faSearch, faEnvelope, faUser } from "@fortawesome/free-solid-svg-icons";
-
+import React from "react";
+import './style.css';
 
 const CustomApp = () => {
-    const items = [
-        { title: 'Home', icon: faHome, href: '#' },
-        { title: 'Search', icon: faSearch, href: '#' },
-        { title: 'Contact', icon: faEnvelope, href: '#' },
-        { title: 'Login', icon: faUser, href: '#' },
-      ];
   return (
     <>
-      <NavbarWithIcons items={items} />
+    <NeuApp/>
     </>
-  );
+  )
 };
 
 export default CustomApp;
-interface NavItem {
-    title: string;
-    icon: any; // Change this type if FontAwesomeIcon doesn't work
-    href: string;
-  }
 
-  interface NavbarProps {
-    items: NavItem[];
-  }
-
-  
-
-  const NavbarWithIcons: React.FC<NavbarProps> = ({ items }) => {
-    return (
-      <nav className="navbar">
-        <ul>
-          {items.map((item, index) => (
-            <li key={index}>
-              <a href={item.href}>
-                <FontAwesomeIcon icon={item.icon} />
-                <span>{item.title}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    );
-  };
+const NeuApp: React.FC = () => {
+  return (
+    <>
+      <div className="wrapper">
+        <div className="img-area">
+          <div className="inner-area">
+            <img
+              src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="icon arrow">
+          <i className="fas fa-arrow-left"></i>
+        </div>
+        <div className="icon dots">
+          <i className="fas fa-ellipsis-v"></i>
+        </div>
+        <div className="name">CodingNepal</div>
+        <div className="about">Designer & Developer</div>
+        <div className="social-icons">
+          <a href="#" className="fb">
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" className="twitter">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="#" className="insta">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="#" className="yt">
+            <i className="fab fa-youtube"></i>
+          </a>
+        </div>
+        <div className="buttons">
+          <button>Message</button>
+          <button>Subscribe</button>
+        </div>
+        <div className="social-share">
+          <div className="row">
+            <i className="far fa-heart"></i>
+            <i className="icon-2 fas fa-heart"></i>
+            <span>20.4k</span>
+          </div>
+          <div className="row">
+            <i className="far fa-comment"></i>
+            <i className="icon-2 fas fa-comment"></i>
+            <span>14.3k</span>
+          </div>
+          <div className="row">
+            <i className="fas fa-share"></i>
+            <span>12.8k</span>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
