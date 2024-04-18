@@ -108,7 +108,7 @@ import Banner from "../components/banner";
 // import CustomApp from '../repository/fatnav/1/app';
 // import CustomApp from '../repository/favicon/1/app';
 // import CustomApp from '../repository/foldedcorner/1/app';
-import CustomApp from "../repository/playiframeembeddedyoutubevideoonclickofabutton/1/app";
+import CustomApp from "../repository/profilecard/1/app";
 
 function Home() {
   return (
