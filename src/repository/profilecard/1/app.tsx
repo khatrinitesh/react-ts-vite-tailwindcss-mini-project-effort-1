@@ -46,7 +46,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ profile }) => {
     <div className="flex w-full">
       {profile.map((profile, index) => (
         <div
-          className="grow bg-white shadow-md rounded-lg overflow-hidden m-4"
+          className="grow bg-white shadow-md rounded-lg overflow-hiddgiten m-4"
           key={index}
         >
           <div className="px-6 py-4">
