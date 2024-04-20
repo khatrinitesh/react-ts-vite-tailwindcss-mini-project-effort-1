@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../components/banner';
+import Banner from '../components/Banner';
 import CustomApp from '../components/fetchdata/1/app';
 
 const Contact = () => {

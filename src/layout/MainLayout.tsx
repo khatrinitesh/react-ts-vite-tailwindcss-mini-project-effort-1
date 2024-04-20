@@ -8,7 +8,7 @@ const MainLayout = () => {
   return (
     <>
      <Header/>
-     <div className="mainContent  bg-gray-100 ">
+     <div className="mainContent grow bg-gray-100 ">
         <Outlet/>
      </div>
      <Footer/>

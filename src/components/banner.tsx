@@ -1,18 +1,19 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const Banner = ({style,title,desc}) => {
-  const bannerStyle = {
-    backgroundColor: 'powderblue',
-    padding: '50px 20px',
-    textAlign: 'center',
-  };
-  return (
-    <div style={bannerStyle}>
-        <h3 className={`${style}`}>{title}</h3>
-        <p className={desc}>{desc}</p>
-    </div>
-  )
+interface BannerProps{
+    Bastyle: React.CSSProperties; // Style object for the banner
+    title:string;
+    desc:string;
 }
+
+const Banner:React.FC<BannerProps> = ({ Bastyle, title, desc }) => {
+  
+  return (
+    <div>
+      <h3 style={Bastyle}>{title}</h3>
+      <p className={desc}>{desc}</p>
+    </div>
+  );
+};
 
 export default Banner
