@@ -9,6 +9,8 @@ import Service from './pages/Service';
 import Contact from './pages/Contact';
 import NotFound from './repository/404error/1/app';
 
+import CustomApp from "./repository/scrolltopbottom/1/app";
+
 function App() {
 
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route path="*" element={<NotFound/>}/>
       </Routes>
      </Router>
+      <CustomApp/>
     </>
   )
 }
