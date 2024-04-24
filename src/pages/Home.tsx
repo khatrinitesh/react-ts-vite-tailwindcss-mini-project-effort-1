@@ -107,12 +107,9 @@
 // import CustomApp from '../repository/fatnav/1/app';
 // import CustomApp from '../repository/favicon/1/app';
 // import CustomApp from '../repository/foldedcorner/1/app';
-import CustomApp from "../repository/shrinkheaderonscroll/1/app";
+import CustomApp from "../repository/splitbuttons/1/app";
 
 function Home() {
-
-
-
 
   return (
     <div className="content ">
