@@ -9,6 +9,16 @@ export default {
   ],
   theme: {
     extend: {
+      // Other extended configurations...
+      animation: {
+        marquee: 'marquee 20s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
       screens: {
         'sm': '640px',    // Small devices (phones)
         'md': '768px',    // Medium devices (tablets)

@@ -107,10 +107,9 @@
 // import CustomApp from '../repository/fatnav/1/app';
 // import CustomApp from '../repository/favicon/1/app';
 // import CustomApp from '../repository/foldedcorner/1/app';
-import CustomApp from "../repository/splitbuttons/1/app";
+import CustomApp from "../repository/tooltips/1/app";
 
 function Home() {
-
   return (
     <div className="content ">
       {/* <Banner
@@ -119,8 +118,6 @@ function Home() {
         Bastyle={undefined}
       /> */}
       <CustomApp />
-      <p>Sit eu fugiat reprehenderit eiusmod eiusmod nisi tempor quis.</p>
-      
     </div>
   );
 }
