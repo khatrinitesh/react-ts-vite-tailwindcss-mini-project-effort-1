@@ -107,7 +107,7 @@
 // import CustomApp from '../repository/fatnav/1/app';
 // import CustomApp from '../repository/favicon/1/app';
 // import CustomApp from '../repository/foldedcorner/1/app';
-import CustomApp from "../repository/tooltips/1/app";
+import CustomApp from "../repository/zoomhover/1/app";
 
 function Home() {
   return (
